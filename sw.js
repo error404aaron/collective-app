@@ -1,4 +1,4 @@
-const CACHE="collective-5fc2fdfbba7694c8",ASSETS=["assets/index-B5mQeOlo.js","assets/index-CnuwF4Eh.css","assets/simulation.worker-C32yqAfA.js","build-info.json","icon-192.png","icon-512.png","index.html","manifest.webmanifest","sprites/atlas.json","sprites/atlas.png"],BUILD={"version":"2.2.0","commit":"c29f41f36e85c482c744faa1db47a416bb902dbc","builtAt":"2026-10-30T21:57:50.136Z","environment":"production"};
+const CACHE="collective-f1f1d12cc0941b4f",ASSETS=["assets/index-Bh28BVag.js","assets/index-ClxD-WHz.css","assets/simulation.worker-CEt698yv.js","build-info.json","icon-192.png","icon-512.png","index.html","manifest.webmanifest","sprites/atlas.json","sprites/atlas.png"],BUILD={"version":"2.2.1","commit":"48755ece59f42e9afc4bdbb69cc2b7f5d0bc312c","builtAt":"2026-10-31T03:04:28.684Z","environment":"production"};
 // Lifecycle: install precaches every asset atomically (a failed download leaves the old version in charge); the new worker then WAITS.
 // The page activates it only after saving the simulation (SKIP_WAITING), or it activates naturally once every tab is closed.
 const at=path=>new URL(path,self.registration.scope).href;
